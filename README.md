@@ -17,7 +17,7 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 ('DS004', 'farah'),
 ('DS005', 'luthfi');
 ```
-![alt text](sslatihan2/2.png)
+![alt text](1.png)
 
 ***Output :***
 
