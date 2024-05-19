@@ -191,6 +191,5 @@ Dalam banyak kasus, pemilihan antara `RESTRICT dan CASCADE `tergantung pada kebu
 
 ### Buat laporan praktikum yang berisi, langkah-langkah praktikum beserta screenshot yang sudah dilakukan dalam bentuk dokumen.
 
-<img src=https://pngimg.com/uploads/google_drive/google_drive_PNG9.png width="110px" >
 
 ## FINISH
