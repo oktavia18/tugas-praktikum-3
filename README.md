@@ -21,14 +21,14 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 
 ***Output :***
 
-![alt text]()
+![alt text](2.png)
 
 2. Hapus satu record data pada tabel dosen yang telah dirujuk pada tabel mahasiswa. 
 ```
 DELETE FROM dosen WHERE kd_ds = 'DS005';
 ```
 ***Output :***
-![alt text](Screenshot/2.png)
+![alt text](3.png)
 
 3. Ubah mode menjadi **ON UPDATE CASCADE ON DELETE RESTRICT** 
 
@@ -45,7 +45,7 @@ ON DELETE RESTRICT;
 ```
 ***Output :***
 
-![alt text](Screenshot/3.png)
+![alt text](4.png)
 
 4. Lakukan perubahan data pada tabel dosen (kd_ds)
 
@@ -59,7 +59,7 @@ Pastikan untuk menjalankan perintah dengan hati-hati dan memastikan bahwa peruba
 
 ***Output :***
 
-![alt text](Screenshot/4.png)
+![alt text](5.png)
 
 5. Lakukan penghapusan data pada tabel dosen
 
@@ -70,7 +70,7 @@ DELETE FROM Dosen WHERE kd_ds = 'DS005';
 
 ***Output :***
 
-![alt text](Screenshot/5.png)
+![alt text](6.png)
 
 6. Ubah mode menjadi **ON UPDATE CASCADE ON DELETE SET NULL**
 ```
@@ -86,7 +86,7 @@ ON DELETE SET NULL;
 ```
 ***Output :***
 
-![alt text](Screenshot/6.png)
+![alt text](7.png)
 
 Dengan perubahan di atas, ketika Anda menghapus record dari tabel "dosen" yang memiliki referensi di tabel "mahasiswa", nilai kolom "kd_ds" dalam tabel "mahasiswa" yang mengacu pada record yang dihapus akan diatur menjadi NULL.
 
@@ -98,7 +98,7 @@ DELETE FROM dosen WHERE kd_ds = 'DS003';
 ```
 ***0utput :***
 
-![alt text](Screenshot/7.png)
+![alt text](8.png)
 
 Perintah ini akan menghapus record dengan nilai "DS003" dari tabel "dosen", dan karena menggunakan opsi ON DELETE SET NULL, nilai kolom "kd_ds" dalam tabel "mahasiswa" yang mengacu pada record yang dihapus akan diatur menjadi NULL.
 
