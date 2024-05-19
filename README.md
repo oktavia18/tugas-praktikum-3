@@ -17,11 +17,11 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 ('DS004', 'farah'),
 ('DS005', 'luthfi');
 ```
-![alt text](screenshotlatihan2/1.png)
+![alt text](sslatihan2/2.png)
 
 ***Output :***
 
-![alt text](ss latihan2/2.png)
+![alt text]()
 
 2. Hapus satu record data pada tabel dosen yang telah dirujuk pada tabel mahasiswa. 
 ```
