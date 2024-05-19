@@ -54,7 +54,7 @@ Berikut adalah contoh perintah untuk melakukan perubahan data pada tabel "dosen"
 ```
 UPDATE dosen SET kd_ds = 'DS005' WHERE nama = 'farah';
 ```
-Perintah di atas akan mengubah nilai kolom `"kd_ds" "Radit" menjadi "DS005" pada tabel "dosen"`. Anda dapat menyesuaikan nilai yang ingin Anda ubah dan kondisi WHERE sesuai dengan kebutuhan Anda.
+Perintah di atas akan mengubah nilai kolom `"kd_ds" "farah" menjadi "DS005" pada tabel "dosen"`. Anda dapat menyesuaikan nilai yang ingin Anda ubah dan kondisi WHERE sesuai dengan kebutuhan Anda.
 
 Pastikan untuk menjalankan perintah dengan hati-hati dan memastikan bahwa perubahan data yang Anda lakukan sesuai dengan kebutuhan dan kebijakan yang berlaku dalam basis data Anda.
 
