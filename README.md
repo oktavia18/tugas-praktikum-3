@@ -159,7 +159,7 @@ ADD CONSTRAINT <nama_constraint_baru> FOREIGN KEY (field) REFERENCES <table_refe
 - Mengubah data
 ```
 UPDATE dosen
-SET kd_ds = 'DS006' WHERE nama = 'Haha Hihi';
+SET kd_ds = 'DS005' WHERE nama = 'Haha Hihi';
 ```
 
 - Menghapus data
