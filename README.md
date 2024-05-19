@@ -21,7 +21,7 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 
 ***Output :***
 
-![alt text](Screenshot/1.2.png)
+![alt text](ss latihan2/2.png)
 
 2. Hapus satu record data pada tabel dosen yang telah dirujuk pada tabel mahasiswa. 
 ```
