@@ -28,6 +28,7 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 DELETE FROM dosen WHERE kd_ds = 'DS005';
 ```
 ***Output :***
+
 ![alt text](3.png)
 
 3. Ubah mode menjadi **ON UPDATE CASCADE ON DELETE RESTRICT** 
